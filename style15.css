@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    justify-content: center;
+}
+
+.grid-element {
+    min-height: 50px;
+    background-color: lightseagreen;
+}
+
+.wide {
+    grid-column: -1 / 1;
+}
